@@ -1,4 +1,13 @@
+import { useEffect, useState } from "react"
+import countriesService from './services/countries'
+
 function App() {
+
+  const [countries, setCountries] = useState([])
+
+  useEffect(() => {
+    countriesService.getAll().then(response => setCountries(response))
+  },[])
 
   return (
     <div className="flex flex-col w-full h-screen p-12 items-center box-border">
