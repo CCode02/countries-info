@@ -4,7 +4,7 @@ const CountryCard = ({ country, selectCountry }) => {
     hover:scale-110 hover:shadow-md/20 transition-all"
         title={country.name.common}
         onClick={() => selectCountry(country)} >
-        <img src={country.flags.svg} alt={country.flags.alt} className="h-1/2 w-auto" />
+        <img src={country.flags.svg} alt={country.flags.alt} className="h-1/2 w-auto border" />
     </div>
 }
 
