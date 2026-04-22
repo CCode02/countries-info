@@ -38,7 +38,7 @@ function App() {
         type="text"
         onChange={handleCountryNameChange}
         value={countryName}
-        className="border py-2 px-4 text-4xl rounded-4xl mt-8" />
+        className="border py-2 px-8 text-3xl leading-none rounded-4xl mt-8 w-2/5" />
       <div className="flex flex-wrap gap-4 mt-12 justify-center">
         {countriesFiltered.map(country => <CountryCard
           key={country.name.official}
