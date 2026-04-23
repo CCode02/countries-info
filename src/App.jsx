@@ -30,15 +30,15 @@ function App() {
   }
 
   return (
-    <div className="flex flex-col w-full h-screen p-12 items-center box-border">
-      <h1 className="text-6xl font-bold">
+    <div className="flex flex-col w-full h-full px-4 py-12 md:p-12 items-center box-border">
+      <h1 className="text-5xl md:text-6xl font-bold text-center">
         Search Country
       </h1>
       <input
         type="text"
         onChange={handleCountryNameChange}
         value={countryName}
-        className="border py-2 px-8 text-3xl leading-none rounded-4xl mt-8 w-2/5" />
+        className="border py-2 px-8 text-3xl leading-none rounded-4xl mt-8 w-9/10 md:w-3/5 lg:w-2/5" />
       <div className="flex flex-wrap gap-4 mt-12 justify-center">
         {countriesFiltered.map(country => <CountryCard
           key={country.name.official}
