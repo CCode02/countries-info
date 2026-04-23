@@ -48,7 +48,7 @@ function App() {
       <dialog
         ref={dialogRef}
         className='animate-in fade-in zoom-in backdrop:animate-in backdrop:fade-in m-auto h-fit w-full 
-            max-w-4/10 rounded-lg bg-white p-0 shadow-xl duration-200 backdrop:bg-black/50 
+            max-w-8/10 md:max-w-6/10 lg:max-w-4/10 xl:max-w-3/10 rounded-lg bg-white p-0 shadow-xl duration-200 backdrop:bg-black/50 
             backdrop:backdrop-blur-sm backdrop:duration-300 starting:scale-95 starting:opacity-0 
             backdrop:starting:opacity-0' >
         <CountryInfoModal country={countrySelected} dialogRef={dialogRef} />
