@@ -9,7 +9,7 @@ This app use [University of Helsinki's Rest Countries API](https://studies.cs.he
 ![App](.github/assets/countries-info.png)
 
 ## App search
-![App search](.github/assets/countries-info search.png)
+![App search](.github/assets/countries-info_search.png)
 
 ## Country information
-![Country information](.github/assets/countries-info information.png)
+![Country information](.github/assets/countries-info_information.png)
